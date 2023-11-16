@@ -33,6 +33,9 @@ SETTINGS_FRIENDS_LINKS: {
     enable: true,
     json_api: "https://cdn.dlya.top/friends.json",
     list: [
+        ["岚天小窝","https://blog.ltya.top","https://cravatar.cn/avatar/5af06b461740fb2bd7467b8561399703?s=500&d=mm&r=g"],
+        ["LZHの小窝","https://blog.lzh.life","https://cravatar.cn/avatar/ed393c2e64cb768039a62f8f14178ca0?s=500&d=mm&r=g"],
+        ["序炁的博客","https://www.ordchaos.com","https://www.ordchaos.com/img/avatar.jpg"]
         # 示例1：
         #["贰猹の小窝", "https://noionion.top/", "https://pub-noionion.oss-cn-hangzhou.aliyuncs.com/head.jpg"],
         #["Akilarの糖果屋", "https://akilar.top/", "https://akilar.top/images/headimage.png"],
