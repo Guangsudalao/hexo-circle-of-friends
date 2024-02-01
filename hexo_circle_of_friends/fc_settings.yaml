@@ -31,7 +31,7 @@ LINK: [
 #       suffix：选填，自定义订阅后缀，主要针对不规范的网站订阅后缀，见示例2
 SETTINGS_FRIENDS_LINKS: {
     enable: true,
-    json_api: "https://cdn.dlya.top/friends.json",
+    json_api: "https://static.dlya.top/web/fcircle/friends.json",
     list: [
         ["岚天小窝","https://blog.ltya.top","https://cravatar.cn/avatar/5af06b461740fb2bd7467b8561399703?s=500&d=mm&r=g"],
         ["LZHの小窝","https://blog.lzh.life","https://cravatar.cn/avatar/ed393c2e64cb768039a62f8f14178ca0?s=500&d=mm&r=g"],
