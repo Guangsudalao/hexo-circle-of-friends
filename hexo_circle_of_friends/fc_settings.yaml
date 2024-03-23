@@ -30,6 +30,7 @@ LINK: [
 #       avatar：必填，头像地址
 #       suffix：选填，自定义订阅后缀，主要针对不规范的网站订阅后缀，见示例2
 
+# 订阅链接
 # https://static.dlya.top/web/fcircle/friends.json
 SETTINGS_FRIENDS_LINKS: {
     enable: true,
