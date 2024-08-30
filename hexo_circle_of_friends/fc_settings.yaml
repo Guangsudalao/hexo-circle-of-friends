@@ -15,7 +15,7 @@
 #   - stellar：stellar主题
 # 支持配置多个友链页面并指定不同主题策略，每个用{}分隔，它们会被同时爬取，数据保存在一起。
 LINK: [
-     { link: "https://blog.bornforthis.cn/link/", theme: "common2" },  # 友链页地址1，修改为你的友链页地址
+     { link: "https://blog.dlya.top/link/", theme: "common2" },  # 友链页地址1，修改为你的友链页地址
     #  { link: "https://blog.class1v1.com/link/", theme: "common2" }, # 友链页地址2
 #     { link: "https://immmmm.com/about/", theme: "common1" }, # 友链页地址3
 #     ...
@@ -30,10 +30,12 @@ LINK: [
 #       avatar：必填，头像地址
 #       suffix：选填，自定义订阅后缀，主要针对不规范的网站订阅后缀，见示例2
 SETTINGS_FRIENDS_LINKS: {
-    enable: false,
-    json_api: "",
+    enable: true,
+    json_api: "https://static.dlya.top/web/fcircle/friends.json",
     list: [
-        ["AI悦创", "https://bornforthis.cn", "https://bornforthis.cn/aiyc.png"],
+        ["岚天小窝", "https://blog.ltya.top", "https://cravatar.cn/avatar/5af06b461740fb2bd7467b8561399703?s=500&d=mm&r=g"],
+        ["LZHの小窝", "https://blog.lzh.life", "https://cravatar.cn/avatar/ed393c2e64cb768039a62f8f14178ca0?s=500&d=mm&r=g"],
+        ["序炁的博客", "https://www.ordchaos.com", "https://www.ordchaos.com/img/avatar.jpg"]
         # 示例1：
         # ["贰猹の小窝", "https://noionion.top/", "https://pub-noionion.oss-cn-hangzhou.aliyuncs.com/head.jpg"],
         # ["Akilarの糖果屋", "https://akilar.top/", "https://akilar.top/images/headimage.png"],
